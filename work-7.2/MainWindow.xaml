@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:work_7._2"
         mc:Ignorable="d"
-        Title="Work №7.2" Height="500" Width="600">
+        Title="Work №7.2" Height="500" Width="600" WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Color x:Key="GradientStopColor1">#FF8B2222</Color>
     </Window.Resources>
@@ -43,7 +43,7 @@
             </Label.Foreground>
         </Label>
         <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Width="190" Height="50" Margin="8" Content="Input" Foreground="#FF4D1313" FontFamily="Goudy Stout" FontSize="18" BorderBrush="#FF471111">
+            <Button Width="190" Height="50" Margin="8" Content="Input" Foreground="#FF4D1313" FontFamily="Goudy Stout" FontSize="18" BorderBrush="#FF471111" Click="Button_Click">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10"></Setter>
@@ -56,7 +56,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button Width="190" Height="50" Margin="8" Content="Calc" Foreground="#FF3A1111" FontFamily="Goudy Stout" FontSize="18" IsEnabled="False">
+            <Button x:Name="calcbtn" Width="190" Height="50" Margin="8" Content="Calc" Foreground="#FF3A1111" FontFamily="Goudy Stout" FontSize="18" IsEnabled="False" Click="Button_Click_2">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10"></Setter>
@@ -69,7 +69,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button Width="190" Height="50" Margin="8" Content="Exit" Foreground="#FF230909" FontFamily="Goudy Stout" FontSize="18">
+            <Button Width="190" Height="50" Margin="8" Content="Exit" Foreground="#FF230909" FontFamily="Goudy Stout" FontSize="18" Click="Button_Click_1">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10"></Setter>
