@@ -36,3 +36,5 @@ D:\Users\1118S-13\Documents\2-ИСП\Полевая\work-7.2\work-7.2\obj\Debug\
 D:\Users\1118S-13\Documents\2-ИСП\Полевая\work-7.2\work-7.2\obj\Debug\work-7.2.pdb
 D:\Users\1118S-13\Documents\2-ИСП\Полевая\work-7.2\work-7.2\obj\Debug\Calc.g.cs
 D:\Users\1118S-13\Documents\2-ИСП\Полевая\work-7.2\work-7.2\obj\Debug\Calc.baml
+D:\Users\1118S-13\Documents\2-ИСП\Полевая\work-7.2\work-7.2\obj\Debug\About.g.cs
+D:\Users\1118S-13\Documents\2-ИСП\Полевая\work-7.2\work-7.2\obj\Debug\About.baml

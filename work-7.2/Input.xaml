@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:work_7._2"
         mc:Ignorable="d"
-        Title="Input" Height="300" Width="270" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+        Title="Input" Height="300" Width="270" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="/among_us_player_orange_icon_156939 (1).ico">
     <Window.Background>
         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
             <GradientStop Color="Black"/>

@@ -47,5 +47,11 @@ namespace work_7._2
             Calc calc= new Calc(result);
             calc.Show();
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            About about= new About();
+            about.Show();
+        }
     }
 }

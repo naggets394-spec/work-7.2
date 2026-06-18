@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:work_7._2"
         mc:Ignorable="d"
-        Title="Work №7.2" Height="500" Width="600" WindowStartupLocation="CenterScreen">
+        Title="Work №7.2" Height="500" Width="600" WindowStartupLocation="CenterScreen" WindowStyle="ThreeDBorderWindow" Icon="/among_us_player_orange_icon_156939 (1).ico">
     <Window.Resources>
         <Color x:Key="GradientStopColor1">#FF8B2222</Color>
     </Window.Resources>
@@ -82,7 +82,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button Width="190" Height="50" Margin="8" Content="About" Foreground="#FF0D0303" FontFamily="Goudy Stout" FontSize="18">
+            <Button Width="190" Height="50" Margin="8" Content="About" Foreground="#FF0D0303" FontFamily="Goudy Stout" FontSize="18" Click="Button_Click_3">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10"></Setter>
